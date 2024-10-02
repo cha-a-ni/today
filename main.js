@@ -1,6 +1,5 @@
 function add(a, b) {
-    // TODO
-    return -1;
+    return a + b;
 }
 
 function add_from(a, b) {
