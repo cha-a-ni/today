@@ -3,8 +3,11 @@ function add(a, b) {
 }
 
 function add_from(a, b) {
-    // TODO
-    return -1;
+    let sum = 0;
+    for (let i = a; i <= b; i++) {
+        sum += i;
+    }
+    return sum;
 }
 
 let in1 = 5;
