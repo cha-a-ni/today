@@ -4,9 +4,13 @@ function add(a, b) {
 
 function add_from(a, b) {
     let sum = 0;
-    for (let i = a; i <= b; i++) {
+    let i = a;
+
+    while (i <= b) {
         sum += i;
+        i++;
     }
+
     return sum;
 }
 
